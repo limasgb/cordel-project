@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Sriracha', cursive;
+    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    min-height: 100vh;
+    margin: 0px;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:45px;
+}
+header>p{
+    font-family: var(--fontepadrao);
+}
+header>h1{
+    font-size: 4em;
+    margin: 0px;
+    font-family: var(--fonte1);
+}
+main{
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: var(--fonte2);
+}
+section.noImg{
+    background-color: white;
+}
+section.wImg{
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 5px 5px 12px 0px rgba(0, 0, 0, 0.425);
+}
+section.wImg>p{
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    color:white;
+}
+#img1{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+#img2{
+    background-image: url('imagens/background002.jpg');
+}
+#lp{
+    margin: 0px;
+    padding-top:16px;
+}
+footer>p{
+    margin:0px;
+    font-size: large;
+    font-weight: lighter;
+}
+footer{
+    font-family: var(--fontepadrao);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
